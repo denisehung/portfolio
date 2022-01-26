@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/0532436cba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="navigation__content">
+            <a href="#home" class="home">DH</a>
+            <ul class="navigation__links">
+                <li><a href="#portfolio" class="navigation__link">Projects</a></li>
+                <li><a href="#skills" class="navigation__link">Skills</a></li>
+                <li><a href="#contact" class="navigation__link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="page" id="home">
+        <header class="header">
+            <div class="header__content">
+                <div class="header__text">
+                    <div class="container">
+                    <h1 class="header__title">Hey, I'm Denise Hung</h1>
+                </div>
+                    <p class="header__subtitle">I'm a junior web developer and online content editor based in Amsterdam</p>
+                    <a class="about-me-link" href="https://github.com/denisehung" target="_blank">
+                        <button class="button-primary">My GitHub profile</button>
+                    </a>
+                </div>
+                <img src="images/profile-pic.jpg" class="header__image">
+            </div>
+        </header>
+        <section class="about" id="about-me">
+            <img src="images/laptop.jpg" class="about__image">
+            <div class="about__text">
+                <h2 class="about__title">About Me</h2>
+                <p class="about__paragraph">I’m a junior front-end developer looking for a new role in an exciting
+                    company.
+                    I
+                    focus on writing
+                    accessible
+                    HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I
+                    mostly
+                    use
+                    React, but I can adapt to whatever tools are required. I’m based in Amsterdam, but I’m happy
+                    working
+                    remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I
+                    love
+                    being
+                    out
+                    in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.
+                </p>
+                <a href="https://www.linkedin.com/in/denise-hung-76563867/" class="about__button-link" target="_blank">
+                    <button class="button-primary about__button">My LinkedIn profile</button>
+                </a>
+            </div>
+        </section>
+        <section class="projects" id="portfolio">
+            <h1 class="projects__title">Projects</h1>
+            <div class="projects__container">
+                <div class="projects__card">
+                    <img class="projects__image" src="images/news-explorer.png" alt="Project One Image">
+                    <h3 class="projects__name">News Explorer</h3>
+                    <p class="projects__description">Final project of Practicum Web Development course: a full-stack web application that allows users to search news articles through News API. REST API is implemented so users can register, login and save articles in their personal account. Google Cloud server has been setup for hosting.</p>
+                    <p class="projects__technologies">HTML | CSS | JS | React | MongoDB | Express | Node | Google Cloud</p>
+                    <div class="projects__button-container">
+                        <a href="https://github.com/denisehung/news-explorer-frontend" target="_blank" class="projects__button">Github</a>
+                        <a href="https://news-explorer-site.netlify.app" target="_blank" class="projects__button">View Live</a>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img class="projects__image" src="images/project-3.png" alt="Project One Image">
+                    <h3 class="projects__name">Around the U.S.</h3>
+                    <p class="projects__description">An Instagram-like full-stack web application where users can share and like photos. The page includes registration and authorization and also displays photos added by other users. Profile avatar and description can be edited. Google Cloud server has been setup for hosting of project.</p>
+                    <p class="projects__technologies">HTML | CSS | JS | React | MongoDB | Express | Node | Google Cloud</p>
+                    <div class="projects__button-container">
+                        <a href="https://github.com/denisehung/news-explorer-frontend" target="_blank" class="projects__button">Github</a>
+                        <a href="https://denisehung.github.io/react-around-api-full" target="_blank" class="projects__button">View Live</a>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img class="projects__image" src="images/apiary.png" alt="Project One Image">
+                    <h3 class="projects__name">Apiary</h3>
+                    <p class="projects__description">Single page application built for Practicum by Yandex's Apiary program, which gives students the opportunity to build projects for existing companies. Page can be edited with Contentful. Queries are sent using GraphQL and managed with Apollo Client.</p>
+                    <p class="projects__technologies">HTML | CSS | JavaScript | React | Contentful</p>
+                    <div class="projects__button-container">
+                        <a href="https://github.com/denisehung/apiary/tree/main" target="_blank" class="projects__button">Github</a>
+                        <a href="https://apiary-project.netlify.app/#/" target="_blank" class="projects__button">View Live</a>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img class="projects__image" src="images/planets.png" alt="Project One Image">
+                    <h3 class="projects__name">Planet Facts</h3>
+                    <p class="projects__description">Informative website displaying interesting facts about the planets in our solar system. This was a side project from Frontend Mentor which I created in order put my newly acquired React skills and knowledge into practice.</p>
+                    <p class="projects__technologies">HTML | CSS | JavaScript | React</p>
+                    <div class="projects__button-container">
+                        <a href="https://github.com/denisehung/planets-fact-site-react" target="_blank" class="projects__button">Github</a>
+                        <a href="https://denisehung.github.io/planets-fact-site-react" target="_blank" class="projects__button">View Live</a>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img class="projects__image" src="images/project-2.png" alt="Project One Image">
+                    <h3 class="projects__name">From Portland to Portland</h3>
+                    <p class="projects__description">A basic webpage about traveling across the US. This project was an introduction to responsive web design and the use of media queries in order to make sure the page looks good on every device. Based on a provided Figma design and created with HTML and CSS Flexbox and Grid technology. </p>
+                    <p class="projects__technologies">HTML | CSS</p>
+                    <div class="projects__button-container">
+                        <a href="https://github.com/denisehung/web_project_3" target="_blank" class="projects__button">Github</a>
+                        <a href="https://denisehung.github.io/web_project_3" target="_blank" class="projects__button">View Live</a>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img class="projects__image" src="images/project-1.png" alt="Project One Image">
+                    <h3 class="projects__name">Learning How to Learn</h3>
+                    <p class="projects__description">First project of Practicum Web Development program, introducing the use of HTML and CSS. A basic, non-responsive page providing useful tips and facts on learning techniques. Includes image/video embedding and CSS animations.</p>
+                    <p class="projects__technologies">HTML | CSS</p>
+                    <div class="projects__button-container">
+                        <a href="https://github.com/denisehung/web_project_1" target="_blank" class="projects__button">Github</a>
+                        <a href="https://denisehung.github.io/web_project_1" target="_blank" class="projects__button">View Live</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="technologies" id="skills">
+            <h2 class="technologies__title">Technologies</h2>
+            <ul class="technologies__container">
+                <li class="technologies_item"><img src="images/html.svg">HTML5</li>
+                <li class="technologies_item"><img src="images/css.svg">CSS3</li>
+                <li class="technologies_item"><img src="images/javascript.svg">JavaScript</li>
+                <li class="technologies_item"><img src="images/react.svg">React</li>
+                <li class="technologies_item"><img src="images/node_1.svg">NodeJS</li>
+                <li class="technologies_item"><img src="images/mongodb.svg">MongoDB</li>
+                <li class="technologies_item"><img src="images/expressjs-icon.svg">Express</li>
+                <li class="technologies_item"><img src="images/github.svg">GitHub</li>
+                <li class="technologies_item"><img src="images/git.svg">Git</li>
+                <li class="technologies_item"><img src="images/figma.svg">Figma</li>
+                <li class="technologies_item"><img src="images/adobe.svg">Adobe CC</li>
+
+            </ul>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__content">
+                <h2 class="contact__heading">Interested in working together?</h2>
+                <p class="contact__paragraph">Send me an email and let's connect!</p>
+                <a href="mailto:denisehung87@gmail.com">
+                    <button class="contact__button button-primary">Contact Me</button>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__columns">
+            <p class="footer__text">Developed and designed with ❤️ by Denise Hung</p>
+            <div class="footer__column-social">
+                <a href="https://github.com/denisehung" target="_blank">
+                    <img class="footer__icon" src="images/github-black.svg">
+                </a>
+                <a href="https://www.linkedin.com/in/denise-hung-76563867/" target="_blank">
+                    <img class="footer__icon" src="images/linkedin.svg">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</html>
