@@ -93,7 +93,6 @@ h1, h2 {
 
 .header {
   width: 100%;
-  background-image: url(../images/homepage/desktop/image-homepage-hero@2x.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -451,6 +450,7 @@ h1, h2 {
 @media screen and (max-width: 768px) {
 
   body {
+    background-image: url(../images/dotted-background-mobile.png);
     background-attachment: scroll;
   }
 
