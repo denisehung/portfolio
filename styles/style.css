@@ -96,8 +96,6 @@ h1, h2 {
   display: flex;
   align-items: center;
   background-color: #fff;
-  padding-top: 200px;
-  padding-bottom: 200px;
   height: 100vh;
 }
 
