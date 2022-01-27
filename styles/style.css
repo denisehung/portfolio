@@ -93,10 +93,8 @@ h1, h2 {
 
 .header {
   width: 100%;
-  background-size: cover;
-  background-position: center;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   background-color: #fff;
   padding-top: 200px;
   padding-bottom: 200px;
